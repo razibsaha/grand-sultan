@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,600&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -9,7 +9,7 @@ body {
 a {
     color: #30CFD0;
     font-size: 1.3rem;
-    padding: 30px;
+    padding: 1.3rem;
     text-decoration: none;
     padding-bottom: 2rem;
 }
@@ -56,10 +56,127 @@ a {
 
 .slider-para {
     font-size: 1rem;
-    font-weight:100;
+    font-weight:300;
     padding-top: .8rem;
 }
 
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.card li {
+    border: none;
+    background-color: transparent;
+
+}
+
+.list-group-item {
+    border: none;
+}
+
+.card-link {
+    background-color: antiquewhite;
+}
+
+.card-title-package {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #231D4F;
+    padding-bottom: 1.875rem;
+}
+.card-subtitle-package {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #231D4F;
+    padding-bottom: .8rem;
+}
+.card-para-package,.list-group-item {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #848199;
+    margin-bottom: 0.1rem;
+}
+
+.hot-card .list-group-item {
+    color: white;
+}
+.hot-card .card-title-package {
+    color: white;
+}
+.hot-card .card-subtitle-package {
+    color: white;
+}
+.hot-card .card-para-package {
+    color: white;
+}
+
+.card-para-package {
+    line-height: 1.7rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.fas,.fa-check-circle {
+    color: lightcoralrgba(82, 67, 194, 0.1037);
+    padding-right: .3rem;
+    font-size: 1.2rem;
+}
+
+.btn-package {
+    background-color: #ebf3ff;
+    margin-top: 10px;
+    width: 70%;
+}
+.btn-package a{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+div .btn-package{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 6rem;
+
+}
+
+.hot-card {
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    height: 480px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    
+}
+
+.card-notify-year {
+    position: absolute;
+    right: 10px;
+    top: -55px;
+    text-align: center;
+    color: #fff;      
+    font-size: .9rem;
+    padding: 5px 15px;
+    background: #FF4E4E;
+    border-radius: 1rem;
+}
 
 
 @media only screen
@@ -69,6 +186,20 @@ and (max-width : 480px) {
     .header1 {
         font-size: 2rem;
         font-weight:700;
+    }
+    .hot-card {
+        background: #3F87F5;
+        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+        border-radius: 26px;
+        width: 75%;
+        height: 480px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        
     }
 
 }
@@ -80,6 +211,20 @@ and (min-width : 321px) {
         font-size: 2rem;
         font-weight:700;
     }
+    .hot-card {
+        background: #3F87F5;
+        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+        border-radius: 26px;
+        width: 75%;
+        height: 480px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        
+    }
 
 }
 /* Smartphones (portrait) ----------- */
@@ -89,6 +234,20 @@ and (max-width : 320px) {
         font-size: 2rem;
         font-weight:700;
     }
+    .hot-card {
+        background: #3F87F5;
+        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+        border-radius: 26px;
+        width: 75%;
+        height: 480px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        
+    }
 
 }
  
@@ -96,6 +255,20 @@ and (max-width : 320px) {
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px) {
+    .hot-card {
+        background: #3F87F5;
+        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+        border-radius: 26px;
+        width: 100%;
+        height: 480px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        
+    }
     
 /* Styles */
 }
@@ -105,6 +278,20 @@ and (max-width : 1024px) {
 and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : landscape) {
+    .hot-card {
+        background: #3F87F5;
+        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+        border-radius: 26px;
+        width: 100%;
+        height: 480px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        
+    }
 /* Styles */
 }
  
@@ -113,17 +300,59 @@ and (orientation : landscape) {
 and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : portrait) {
+    .hot-card {
+        background: #3F87F5;
+        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+        border-radius: 26px;
+        width: 100%;
+        height: 480px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        
+    }
 /* Styles */
 }
  
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
+    .hot-card {
+        background: #3F87F5;
+        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+        border-radius: 26px;
+        width: 100%;
+        height: 480px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        
+    }
 /* Styles */
 }
  
 /* Large screens ----------- */
 @media only screen
 and (min-width : 1824px) {
+    .hot-card {
+        background: #3F87F5;
+        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+        border-radius: 26px;
+        width: 100%;
+        height: 480px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        
+    }
 /* Styles */
 }
